@@ -1,0 +1,8 @@
+steps:
+1. figure out how to make a bunch of triangle objects
+2. figure out how to make triangle objects that display differently but using the same object
+3. figoure out how to draw the patterns I want
+
+1. still trying to figure out if one display function can create two different orientations of triangles
+2. how do you create a hover area on a triangle? 
+

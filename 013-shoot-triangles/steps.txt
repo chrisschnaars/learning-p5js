@@ -1,0 +1,15 @@
+steps:
+1. create a triangle class
+2. figure out the shooting behavior - not just add one per click
+3. how to make triangles move?
+3. how to make them stay away from the mouse and the screen edges
+
+
+creating the triangle wasn't so hard.
+had to think about the math of it to orient the triangle around the cursor
+
+getting the shooting to work wasn't too hard once I realized the mouseIsPressed boolean
+
+got the fading out behavior to work after seeing an example on the p5js website that used a variable called
+lifespan to control the opacity, and reduce that variable in the move function
+

@@ -1,0 +1,171 @@
+/*  CSS RESET */
+/*  Meyer's CSS Reset, Normalized.css, and custom code */
+/*  Mobile Screen Resizing */
+@-webkit-viewport {
+  width: device-width;
+  zoom: 1.0; }
+@-moz-viewport {
+  width: device-width;
+  zoom: 1.0; }
+@-ms-viewport {
+  width: device-width;
+  zoom: 1.0; }
+@-o-viewport {
+  width: device-width;
+  zoom: 1.0; }
+@viewport {
+  width: device-width;
+  zoom: 1.0; }
+/*  Remove browser defaults */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+button, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box; }
+
+::selection {
+  background: #ffffff; }
+
+/*  Set display type for HTML5 semantic elements */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/*  Force scrollbar display to prevent jumping on pages.
+ *  Fix text resize bug on mobile devices. */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* Disable scrolling to make painting work properly */
+html, body {
+  height: 100%;
+  overflow: hidden; }
+
+/*  Display audio, canvas, and video elements as inline block elements. */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/*  Prevent modern browsers from displaying audio without controls. */
+audio:not([controls]) {
+  display: none; }
+
+/*  Prevent img and video elements from spilling
+ *  outside of the page on smaller screens. */
+img, video {
+  max-width: 100%;
+  height: auto; }
+
+/*  Prevent iframe, object, and embed elements from
+ *  spilling outside of the page on smaller screens. */
+iframe, object, embed {
+  max-width: 100%; }
+
+/*  Prevents IE from making scaled images look like crap */
+img {
+  -ms-interpolation-mode: bicubic; }
+
+/*  Address outline inconsistency between Chrome and other browsers. */
+a:focus,
+button:focus {
+  outline: thin dotted;
+  outline: .294117647em auto -webkit-focus-ring-color;
+  outline-offset: -.142857143em; }
+
+/*  Improve readability when focused and also mouse hovered in all browsers. */
+a:hover, a:active {
+  outline: 0; }
+
+body {
+  font-family: "PT Serif", serif;
+  font-size: 1.5rem;
+  line-height: 160%;
+  color: #0a0a0a; }
+
+h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+  line-height: 135%; }
+  @media screen and (min-width: 751px) and (max-width: 1024px) {
+    h1 {
+      font-size: 4rem; } }
+  @media screen and (min-width: 521px) and (max-width: 750px) {
+    h1 {
+      font-size: 3rem; } }
+  @media screen and (min-width: 381px) and (max-width: 520px) {
+    h1 {
+      font-size: 2.5rem; } }
+  @media screen and (max-width: 380px) {
+    h1 {
+      font-size: 1.75rem;
+      margin-bottom: 4rem; } }
+
+p {
+  line-height: 160%;
+  font-size: 1.5rem;
+  text-align: center; }
+  @media screen and (min-width: 521px) and (max-width: 750px) {
+    p {
+      font-size: 1.5rem; } }
+  @media screen and (max-width: 520px) {
+    p {
+      font-size: 1.25rem; } }
+
+a {
+  color: #0a0a0a;
+  text-decoration: none;
+  border-bottom: 2px solid #ff3d84; }
+
+a:hover {
+  color: #ff3d84;
+  text-decoration: none; }
+
+.clear-btn {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  line-height: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #0a0a0a;
+  border-radius: 0;
+  margin: 40% 20%; }
+
+#container {
+  position: fixed;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 5%;
+  padding-top: 18%; }
+
+section {
+  width: 100%;
+  padding: 4rem 5%;
+  margin: 0 auto;
+  background-color: transparent; }
+  @media screen and (max-width: 750px) {
+    section {
+      padding: 2rem 5%; } }
+
+/*# sourceMappingURL=main-styles.css.map */

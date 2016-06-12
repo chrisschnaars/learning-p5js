@@ -1,0 +1,9 @@
+steps:
+1. first out how to get the slider working
+	- tried an early example using it to modify the background color
+2. figure out how to add a variable in the object
+
+
+this was relatively hassle free
+once i figured out declare the alpha value variable in the display() function, that set me on the path
+figuring that out made it easy to figure out how to control the number of balls being intialized

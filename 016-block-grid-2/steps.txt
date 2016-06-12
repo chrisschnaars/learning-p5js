@@ -1,0 +1,6 @@
+steps:
+1. figure out how to draw different shapes with a mouse click
+2. figure out how to also do a hover state
+
+1. had to figure out to use a function to increase a variable which determined which shape would be drawn. something about this logic was really exciting - opens up a world of different thigns you can do.
+5. 

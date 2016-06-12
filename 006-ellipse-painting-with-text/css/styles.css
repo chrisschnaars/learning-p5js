@@ -1,0 +1,11 @@
+section {
+	position: absolute;
+	width: 100%;
+	margin: 50px;
+}
+
+h1 {
+	font-size: 450%;
+	font-family: georgia, serif;
+	line-height: 140%;
+}

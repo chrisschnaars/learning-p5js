@@ -1,0 +1,11 @@
+steps:
+1. create a block class
+2. figure out how to extend this across the screen
+3. figure out the on/off behavior
+4. figure out the hover behavior
+5. figure out how to toggle through different colors
+
+1. this was hard. learning about for loops within for loops
+2. gettting the logic for the number of squares to be right was difficult. started by dividing the width of the display area by the width of the blocks.
+3. added a hover functionality but it seemed to make things slower and make the computer work very hard. not sure what was happening.
+4. would love to add some more shapes.

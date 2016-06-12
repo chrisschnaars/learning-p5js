@@ -1,0 +1,10 @@
+steps:
+1. first get button working
+2. figure out how to style the button
+
+a lot of trouble figuring out how to get the button functionality working properly - so that clikcing it
+wouldn't also create a new ball
+
+the problem ended up being where I was defining the variable - in setup instead of before setup
+
+problems are often due to more technical errors than the exact line of code you're writing

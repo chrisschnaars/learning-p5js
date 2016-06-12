@@ -1,0 +1,46 @@
+
+// ----------------------------------------
+// // ------ CONTAINERS ------
+// ----------------------------------------
+
+//The ultimate container for the site with the border
+#container {
+	position: fixed;
+	width: 100%;
+    max-width: 100%;
+    margin:0;
+    padding: 5%;
+    padding-top: 18%;
+    //border: 20px solid $primary;
+}
+
+
+
+//The section with the writing and stuff
+section {
+	width: 100%;
+	//max-width: $max-width;
+	padding: $vertical-padding 5%;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0);
+	//z-index: -1;
+	@media screen and (max-width: $small-screen) {
+        padding: $vertical-padding/2 5%;
+  }
+}
+
+
+
+
+// .wrapper {
+// 	max-width: $body-copy-width-desktop;
+// 	margin: 0 auto;
+// }
+
+
+
+
+
+
+
+

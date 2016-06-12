@@ -1,0 +1,26 @@
+section {
+	padding: 0px;
+	position: absolute;
+	width: 100%;
+	max-width: 960px;
+}
+
+h1 {
+	font-size: 370%;
+	font-family: georgia, serif;
+	line-height: 370%;
+
+}
+
+h1.white {
+	color: white;
+	position: absolute;
+	top: 0;
+
+}
+
+h1.green {
+	color: rgb(26, 188, 156);
+	position: absolute;
+	top: 100px;
+}

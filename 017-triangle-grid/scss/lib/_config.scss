@@ -1,0 +1,43 @@
+
+// ----------------------------------------
+// // ------ LAYOUT SETTINGS ------
+// ----------------------------------------
+
+$full-width: 100%;
+$max-width: 1200px;
+$vertical-padding: 4rem;
+
+
+// ----------------------------------------
+// // ------ MEDIA QUERIES ------
+// ----------------------------------------
+
+$mobile-small: 380px;
+$mobile: 520px; 
+$small-screen: 750px;
+$medium-screen: 1024px;
+
+
+
+// ----------------------------------------
+// // ------ colors ------
+// ----------------------------------------
+
+//$primary: #FF3D84 ;      // pink
+$primary: rgb(255, 61, 132);
+$black: #0a0a0a;        // black
+$gray: #fefefe;    // gray
+$white: #ffffff;        // white
+
+
+
+
+
+// ----------------------------------------
+// // --------- hr settings --------
+// ----------------------------------------
+
+$hr-margin: 2em auto;
+$hr-style-border-top: .071428571em solid $gray;
+$hr-style-border-bottom: .071428571em solid $white;
+
