@@ -1,0 +1,1 @@
+this one didn't make much sense - decoupling the hour and minute. you don't necessarly care that it's something-15, or 7-seomthing. you want to know both sides of the semi-colon (most times)

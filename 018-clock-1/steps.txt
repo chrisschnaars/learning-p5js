@@ -1,0 +1,4 @@
+steps:
+1. figure out how to use time to drive rectangle width
+2. figure out how to present text
+3. figure out how to drive the text width the hour and minute value
